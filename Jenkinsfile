@@ -3,7 +3,7 @@ pipeline {
         label 'my-ssh-agent'
     }
     tools {
-        mvn 'Maven'
+        maven 'Maven'
         dockerTool 'Docker'
     }
     environment {
